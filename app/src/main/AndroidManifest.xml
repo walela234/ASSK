@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.assk">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icccon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/icccon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ASSK">
+        <activity
+            android:name="com.association.assk.Mission"
+            android:exported="false" />
+        <activity
+            android:name="com.association.assk.Vision"
+            android:exported="false" />
+        <activity
+            android:name="com.association.assk.About"
+            android:exported="false" />
+        <activity
+            android:name="com.association.assk.A_FAQ"
+            android:exported="false" />
+        <activity
+            android:name="com.association.assk.Executive_teams"
+            android:exported="false" />
+        <activity
+            android:name="com.association.assk.Courseshow"
+            android:exported="true" />
+        <activity android:name="com.association.assk.Persons" />
+        <activity android:name="com.association.assk.ISUweb" />
+        <activity android:name="com.association.assk.questions" />
+        <activity android:name="com.association.assk.Components" />
+        <activity
+            android:name="com.association.assk.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,740 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/indigo"
+    tools:context="com.association.assk.Persons">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/llo">
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:padding="15dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="25dp"
+            android:id="@+id/card1"
+            app:cardBackgroundColor="@color/indigo">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/relative_1">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="ABE BRIGHT KAMUA"
+                    android:textSize="15sp"
+                    android:id="@+id/pr_name"
+                    android:textAlignment="center"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+                <ImageView
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:id="@+id/pr"
+                    android:src="@drawable/avat"
+                    android:layout_marginTop="30dp"
+                    android:layout_centerHorizontal="true"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/pr_text"
+                    android:textColor="#ffffff"
+                    android:layout_below="@id/pr"
+                    android:layout_marginTop="10dp"
+                    android:text="President"
+                    android:layout_centerInParent="true"
+                    android:textSize="15sp" />
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>/*president*/
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:padding="20dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="25dp"
+            android:id="@+id/card2"
+            app:cardBackgroundColor="@color/indigo">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/relative_2">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="NSIMBE EDDIE"
+                    android:textSize="15sp"
+                    android:id="@+id/nsimbe_name"
+                    android:textAlignment="center"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+                <ImageView
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:id="@+id/nsimbe"
+                    android:src="@drawable/avat"
+                    android:layout_marginTop="30dp"
+                    android:layout_centerHorizontal="true"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/nsimbe_text"
+                    android:textColor="#ffffff"
+                    android:layout_below="@id/nsimbe"
+                    android:layout_marginTop="10dp"
+                    android:text="Prime Minister"
+                    android:layout_centerInParent="true"
+                    android:textSize="15sp" />
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:padding="20dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="25dp"
+            android:id="@+id/card4"
+            app:cardBackgroundColor="@color/indigo">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/relative_3">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="ZAWEDDE GLORIA"
+                    android:textSize="15sp"
+                    android:id="@+id/za_name"
+                    android:textAlignment="center"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+                <ImageView
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:id="@+id/za"
+                    android:src="@drawable/avat"
+                    android:layout_marginTop="30dp"
+                    android:layout_centerHorizontal="true"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/za_text"
+                    android:textColor="#ffffff"
+                    android:layout_below="@id/za"
+                    android:layout_marginTop="10dp"
+                    android:text="General Secretary"
+                    android:layout_centerInParent="true"
+                    android:textSize="15sp" />
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:padding="20dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="25dp"
+            android:id="@+id/card5"
+            app:cardBackgroundColor="@color/indigo">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/relative_4">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="KABANGO CHARLES"
+                    android:textSize="15sp"
+                    android:id="@+id/kaba_name"
+                    android:textAlignment="center"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+                <ImageView
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:id="@+id/kaba"
+                    android:src="@drawable/avat"
+                    android:layout_marginTop="30dp"
+                    android:layout_centerHorizontal="true"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/kaba_text"
+                    android:textColor="#ffffff"
+                    android:layout_below="@id/kaba"
+                    android:layout_marginTop="10dp"
+                    android:text="Projects Manager"
+                    android:layout_centerInParent="true"
+                    android:textSize="15sp" />
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:padding="20dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="25dp"
+            android:id="@+id/card6"
+            app:cardBackgroundColor="@color/indigo">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/relative_5">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="WALELA INNOCENT CHARLES"
+                    android:textSize="15sp"
+                    android:id="@+id/wale_name"
+                    android:textAlignment="center"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+                <ImageView
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:src="@drawable/avat"
+                    android:id="@+id/wale"
+                    android:layout_marginTop="30dp"
+                    android:layout_centerHorizontal="true"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/wale_text"
+                    android:textColor="#ffffff"
+                    android:layout_below="@id/wale"
+                    android:layout_marginTop="10dp"
+                    android:text="Vice President BE"
+                    android:layout_centerInParent="true"
+                    android:textSize="15sp" />
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:padding="20dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="25dp"
+            android:id="@+id/card7"
+            app:cardBackgroundColor="@color/indigo">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/relative_6">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="AYEZA LAMUEL"
+                    android:textSize="15sp"
+                    android:id="@+id/yeza_name"
+                    android:textAlignment="center"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+                <ImageView
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:id="@+id/yeza"
+                    android:src="@drawable/avat"
+                    android:layout_marginTop="30dp"
+                    android:layout_centerHorizontal="true"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/yeza_txt"
+                    android:textColor="#ffffff"
+                    android:layout_below="@id/yeza"
+                    android:layout_marginTop="10dp"
+                    android:text="Vice President LE"
+                    android:layout_centerInParent="true"
+                    android:textSize="15sp" />
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:padding="20dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="25dp"
+            android:id="@+id/cards"
+            app:cardBackgroundColor="@color/indigo">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/relative_s">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="OULANYA MORRIS"
+                    android:textSize="15sp"
+                    android:id="@+id/oula_name"
+                    android:textAlignment="center"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+                <ImageView
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:id="@+id/oula"
+                    android:src="@drawable/avat"
+                    android:layout_marginTop="30dp"
+                    android:layout_centerHorizontal="true"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/oula_text"
+                    android:textColor="#ffffff"
+                    android:layout_below="@id/oula"
+                    android:layout_marginTop="10dp"
+                    android:text="Vice President LS"
+                    android:layout_centerInParent="true"
+                    android:textSize="15sp" />
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:padding="20dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="25dp"
+            android:id="@+id/cardlo"
+            app:cardBackgroundColor="@color/indigo">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/relative_lo">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="LUTWAMA LAWRENCE"
+                    android:textSize="15sp"
+                    android:id="@+id/lo_name"
+                    android:textAlignment="center"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+                <ImageView
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:src="@drawable/avat"
+                    android:id="@+id/lo"
+                    android:layout_marginTop="30dp"
+                    android:layout_centerHorizontal="true"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/lo_txt"
+                    android:textColor="#ffffff"
+                    android:layout_below="@id/lo"
+                    android:layout_marginTop="10dp"
+                    android:text="Deputy PM"
+                    android:layout_centerInParent="true"
+                    android:textSize="15sp" />
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:padding="20dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="25dp"
+            android:id="@+id/card8"
+            app:cardBackgroundColor="@color/indigo">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/relative_7">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="NAYIGA STELLA"
+                    android:textSize="15sp"
+                    android:id="@+id/stella_name"
+                    android:textAlignment="center"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+                <ImageView
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:src="@drawable/avat"
+                    android:id="@+id/Stella"
+                    android:layout_marginTop="30dp"
+                    android:layout_centerHorizontal="true"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/stella_txt"
+                    android:textColor="#ffffff"
+                    android:layout_below="@id/Stella"
+                    android:layout_marginTop="10dp"
+                    android:text="Information Secretary"
+                    android:layout_centerInParent="true"
+                    android:textSize="15sp" />
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:padding="20dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="25dp"
+            android:id="@+id/card_9"
+            app:cardBackgroundColor="@color/indigo">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/relative_8">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="BATUMA HILLARY"
+                    android:textSize="15sp"
+                    android:id="@+id/batuma_name"
+                    android:textAlignment="center"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+                <ImageView
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:src="@drawable/avat"
+                    android:id="@+id/hillo"
+                    android:layout_marginTop="30dp"
+                    android:layout_centerHorizontal="true"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/batuma_txt"
+                    android:textColor="#ffffff"
+                    android:layout_below="@id/hillo"
+                    android:layout_marginTop="10dp"
+                    android:text="Deputy Information"
+                    android:layout_centerInParent="true"
+                    android:textSize="15sp" />
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:padding="20dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="25dp"
+            android:id="@+id/card_en"
+            app:cardBackgroundColor="@color/indigo">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/relative_10">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="ASSIMIRE PRIMA"
+                    android:textSize="15sp"
+                    android:id="@+id/a_name"
+                    android:textAlignment="center"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+                <ImageView
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:src="@drawable/avat"
+                    android:id="@+id/ap"
+                    android:layout_marginTop="30dp"
+                    android:layout_centerHorizontal="true"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/a_txt"
+                    android:textColor="#ffffff"
+                    android:layout_below="@id/ap"
+                    android:layout_marginTop="10dp"
+                    android:text="Finance Minister"
+                    android:layout_centerInParent="true"
+                    android:textSize="15sp" />
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:padding="20dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="25dp"
+            android:id="@+id/card_ten"
+            app:cardBackgroundColor="@color/indigo">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/relative_9">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="KISEKWA FURAHA"
+                    android:textSize="15sp"
+                    android:id="@+id/fura_name"
+                    android:textAlignment="center"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+                <ImageView
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:src="@drawable/avat"
+                    android:id="@+id/kisekwa"
+                    android:layout_marginTop="30dp"
+                    android:layout_centerHorizontal="true"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/fura_txt"
+                    android:textColor="#ffffff"
+                    android:layout_below="@id/kisekwa"
+                    android:layout_marginTop="10dp"
+                    android:text="Deputy Finance"
+                    android:layout_centerInParent="true"
+                    android:textSize="15sp" />
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:padding="20dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="25dp"
+            android:id="@+id/card_e"
+            app:cardBackgroundColor="@color/indigo">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/relative_11">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="AHIMBISIBWE PRISCILLA"
+                    android:textSize="15sp"
+                    android:id="@+id/ap_name"
+                    android:textAlignment="center"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+                <ImageView
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:src="@drawable/avat"
+                    android:id="@+id/ahimb"
+                    android:layout_marginTop="30dp"
+                    android:layout_centerHorizontal="true"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/ap_txt"
+                    android:textColor="#ffffff"
+                    android:layout_below="@id/ahimb"
+                    android:layout_marginTop="10dp"
+                    android:text="Speaker"
+                    android:layout_centerInParent="true"
+                    android:textSize="15sp" />
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:padding="20dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="25dp"
+            android:id="@+id/card_twelf"
+            app:cardBackgroundColor="@color/indigo">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/relative_12">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="KITUYI MARY LINDA"
+                    android:textSize="15sp"
+                    android:id="@+id/aK_name"
+                    android:textAlignment="center"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+                <ImageView
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:id="@+id/kituyi"
+                    android:src="@drawable/avat"
+                    android:layout_marginTop="30dp"
+                    android:layout_centerHorizontal="true"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/aK_txt"
+                    android:textColor="#ffffff"
+                    android:layout_below="@id/kituyi"
+                    android:layout_marginTop="10dp"
+                    android:text="Deputy Speaker"
+                    android:layout_centerInParent="true"
+                    android:textSize="15sp" />
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:padding="20dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="25dp"
+            android:id="@+id/card_thirt"
+            app:cardBackgroundColor="@color/indigo">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/relative_13">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="KATO DAVID"
+                    android:textSize="15sp"
+                    android:id="@+id/d_name"
+                    android:textAlignment="center"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+                <ImageView
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:id="@+id/david"
+                    android:src="@drawable/avat"
+                    android:layout_marginTop="30dp"
+                    android:layout_centerHorizontal="true"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/d_txt"
+                    android:textColor="#ffffff"
+                    android:layout_below="@id/david"
+                    android:layout_marginTop="10dp"
+                    android:text="General Studies"
+                    android:layout_centerInParent="true"
+                    android:textSize="15sp" />
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+
+</ScrollView>

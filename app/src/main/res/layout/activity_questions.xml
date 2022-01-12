@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/indigo"
+    tools:context="com.association.assk.questions">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="20dp"
+        android:orientation="vertical"
+        android:background="@color/indigo"
+        android:id="@+id/scroll_view">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="@string/title"
+            android:id="@+id/faq"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:layout_marginHorizontal="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif-black"
+            android:text="@string/what_is_assk"
+            android:textColor="@color/white"
+            android:id="@+id/qtn"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="18sp"
+            android:text="@string/defn_assk"
+            android:id="@+id/defnnn"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="sans-serif-black"
+            android:text="@string/join_qt"
+            android:id="@+id/req_qtn"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="18dp"
+            android:textColor="@color/white"
+            android:text="@string/ans_req"
+            android:textStyle="bold"
+            android:id="@+id/req_ans"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="sans-serif-black"
+            android:text="@string/ben_qtn"
+            android:id="@+id/ben_qtn"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/ben_ans"
+            android:id="@+id/ben_ans"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="18sp"
+
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="sans-serif-black"
+            android:text="@string/Where_money"
+            android:id="@+id/mney_qtn"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/where_answer"
+            android:id="@+id/mney_ans"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="18sp"
+
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="sans-serif-black"
+            android:text="@string/crt_qt"
+            android:id="@+id/crt_qtn"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/crt_ans"
+            android:id="@+id/crt_ans"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="18sp"
+
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="sans-serif-black"
+            android:text="@string/card_ben"
+            android:id="@+id/card_qtn"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/card_bens"
+            android:id="@+id/card_ans"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+
+            />
+
+    </LinearLayout>
+
+
+</ScrollView>

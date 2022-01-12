@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">ASSK App 1.0</string>
+    <string name="title">Frequently asked questions</string>
+    <string name="what_is_assk">What is ASSK?</string>
+    <string name="defn_assk">ASSK is an acronym that stands for Association of Student Surveyors Kyambogo.It was
+    founded by students under the department of lands in order to bring together student surbeyors in the disciplines of Valuation surveying
+    ,quantity surveying and land surveying.It basically binds us all together and creates that unity
+    both ant institution and in the working space.</string>
+    <string name="join_qt">What are the requirements to join?</string>
+    <string name="ans_req">You need to be a student of any of the courses mentioned in the previous
+    answer and must be commited and wiling to take part in and support the activities of the association</string>
+    <string name="ben_qtn">ASSK?what are the benefits gained if i become a part of you!</string>
+    <string name="ben_ans">You probably are asking yourself what you gain and here is the thing comrade.
+    Joining ASSK gives you the opportunity to network with students with whose interests you share and this will be helpful
+    when it comes to building a great a career.No man ia an island right?.Basically this brings together students from
+    the years above and creates that connecton on both a professional and social basis.
+    Just dive in and have an experience of it .</string>
+    <string name="crt_qt">What is the criteria to join?</string>
+    <string name="crt_ans">Joining ASSK has been made simpler with the help of this app.Navigate to the
+        register button on the home page.click register and choose your respective discipline.You will then
+        be redirected to download a registration form which will be signed by the president and the head of your discipline.
+        Download and fill the form then submit it to the head of your discipline whose are on the registration form.Pay a support fee of ten thousand for year one and fifteen thousand for the subsequent years respectively after which a receipt will be handed over to
+      to you.The head of your section will inform you when to pick up your
+    identification Card.</string>
+    <string name="card_ben">What do i do with this card?Is it worth it to register anyway!</string>
+    <string name="card_bens">ASSK card absolutely comes with a lumpsome of benefits and being a member
+    of ASSK and having ownership of that membership card gets you discounts on payments of activities
+    organised by the asscociation for example workshops and the like and it is a way to say thankyou for supporting
+    the existance of the Association</string>
+    <string name="Where_money">ASSK!where do you take our money?</string>
+    <string name="where_answer">ASSK would love to assure you that there is extreme decency in handling the funds as there
+    is a finace to handle and account for all the money collected.The money basically goes in to print ouy
+    the cards that are issued to you and basically to facilitate the organisation of any club activities
+    for example refreshments,PA system and the like.YOUR money is in absolute safe hands</string>
+    <string name="mission">""The purpose of the association is to lead,provide and support initiatives that encourage and enhance the acquisation of knowledge,proffessional and ethical character through engagement in projects and prograams that foster co-curricular developments and promote values""</string>
+    <string name="vision">""To be a recognised association that enhances developments in the quality of marketplace practices through responsive and efficient programs and projects""</string>
+
+</resources>

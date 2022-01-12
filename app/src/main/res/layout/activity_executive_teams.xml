@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/indigo"
+    tools:context="com.association.assk.Executive_teams">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:padding="80dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="25dp"
+        android:id="@+id/car"
+        app:cardBackgroundColor="@color/indigo">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/relative_12">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:text="EXECUTIVE TEAM 2020/2021"
+                android:textSize="18sp"
+                android:id="@+id/aK_name"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:gravity="center_horizontal" />
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_below="@id/car"
+        android:layout_height="80dp"
+        android:padding="80dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="25dp"
+        android:id="@+id/card"
+        app:cardBackgroundColor="@color/indigo">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/relative__">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:text="EXECUTIVE TEAM 2021/2022"
+                android:textSize="18sp"
+                android:id="@+id/execc_name"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:gravity="center_horizontal" />
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

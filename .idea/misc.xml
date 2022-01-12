@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidStudioProjects/ASSK/app/src/main/res/layout/activity_courseshow.xml" value="0.1634963768115942" />
+        <entry key="..\:/AndroidStudioProjects/ASSK/app/src/main/res/layout/activity_main.xml" value="0.1539855072463768" />
+        <entry key="..\:/Users/INNOCENT/AndroidStudioProjects/ASSK/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2203125" />
+        <entry key="..\:/Users/INNOCENT/AndroidStudioProjects/ASSK/app/src/main/res/drawable/ic_about.xml" value="0.2203125" />
+        <entry key="..\:/Users/INNOCENT/AndroidStudioProjects/ASSK/app/src/main/res/drawable/ic_baseline_add_box_24.xml" value="0.2203125" />
+        <entry key="..\:/Users/INNOCENT/AndroidStudioProjects/ASSK/app/src/main/res/drawable/ic_baseline_home_repair_service_24.xml" value="0.2203125" />
+        <entry key="..\:/Users/INNOCENT/AndroidStudioProjects/ASSK/app/src/main/res/drawable/ic_baseline_how_to_reg_24.xml" value="0.2203125" />
+        <entry key="..\:/Users/INNOCENT/AndroidStudioProjects/ASSK/app/src/main/res/drawable/ic_baseline_library_books_24.xml" value="0.2203125" />
+        <entry key="..\:/Users/INNOCENT/AndroidStudioProjects/ASSK/app/src/main/res/drawable/ic_baseline_office.xml" value="0.2203125" />
+        <entry key="..\:/Users/INNOCENT/AndroidStudioProjects/ASSK/app/src/main/res/drawable/ic_baseline_question_answer_24.xml" value="0.2203125" />
+        <entry key="..\:/Users/INNOCENT/AndroidStudioProjects/ASSK/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2203125" />
+        <entry key="..\:/Users/INNOCENT/AndroidStudioProjects/ASSK/app/src/main/res/drawable/ic_office.xml" value="0.2203125" />
+        <entry key="..\:/Users/INNOCENT/AndroidStudioProjects/ASSK/app/src/main/res/layout/activity_components.xml" value="0.1" />
+        <entry key="..\:/Users/INNOCENT/AndroidStudioProjects/ASSK/app/src/main/res/layout/activity_courseshow.xml" value="0.19947916666666668" />
+        <entry key="..\:/Users/INNOCENT/AndroidStudioProjects/ASSK/app/src/main/res/layout/activity_database.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/INNOCENT/AndroidStudioProjects/ASSK/app/src/main/res/layout/activity_isuweb.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/INNOCENT/AndroidStudioProjects/ASSK/app/src/main/res/layout/activity_login_student.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/INNOCENT/AndroidStudioProjects/ASSK/app/src/main/res/layout/activity_main.xml" value="0.18" />
+        <entry key="..\:/Users/INNOCENT/AndroidStudioProjects/ASSK/app/src/main/res/layout/activity_persons.xml" value="0.25" />
+        <entry key="..\:/Users/INNOCENT/AndroidStudioProjects/ASSK/app/src/main/res/layout/activity_questions.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/INNOCENT/AndroidStudioProjects/ASSK/app/src/main/res/layout/activity_register_student.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/INNOCENT/AndroidStudioProjects/ASSK/app/src/main/res/layout/activity_show_fragments.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/INNOCENT/AndroidStudioProjects/ASSK/app/src/main/res/layout/fragment_home_.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/INNOCENT/AndroidStudioProjects/ASSK/app/src/main/res/layout/fragment_prof_fragmnt.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/INNOCENT/AndroidStudioProjects/ASSK/app/src/main/res/layout/fragment_projects.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/INNOCENT/AndroidStudioProjects/ASSK/app/src/main/res/layout/notification.xml" value="0.19947916666666668" />
+        <entry key="..\:/Users/INNOCENT/AndroidStudioProjects/ASSK/app/src/main/res/menu/menu_bottom.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/WALELA/AndroidStudioProjects/ASSK/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2169230769230769" />
+        <entry key="..\:/Users/WALELA/AndroidStudioProjects/ASSK/app/src/main/res/drawable/ic_baseline_border_clear_24.xml" value="0.2169230769230769" />
+        <entry key="..\:/Users/WALELA/AndroidStudioProjects/ASSK/app/src/main/res/drawable/ic_baseline_how_to_reg_24.xml" value="0.2169230769230769" />
+        <entry key="..\:/Users/WALELA/AndroidStudioProjects/ASSK/app/src/main/res/drawable/ic_baseline_office.xml" value="0.2169230769230769" />
+        <entry key="..\:/Users/WALELA/AndroidStudioProjects/ASSK/app/src/main/res/drawable/ic_baseline_person_outline_24.xml" value="0.2169230769230769" />
+        <entry key="..\:/Users/WALELA/AndroidStudioProjects/ASSK/app/src/main/res/drawable/ic_baseline_question_answer_24.xml" value="0.2169230769230769" />
+        <entry key="..\:/Users/WALELA/AndroidStudioProjects/ASSK/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2169230769230769" />
+        <entry key="..\:/Users/WALELA/AndroidStudioProjects/ASSK/app/src/main/res/drawable/ic_office.xml" value="0.2169230769230769" />
+        <entry key="..\:/Users/WALELA/AndroidStudioProjects/ASSK/app/src/main/res/drawable/layout_bg.xml" value="0.2203125" />
+        <entry key="..\:/Users/WALELA/AndroidStudioProjects/ASSK/app/src/main/res/layout/activity_about.xml" value="0.19157608695652173" />
+        <entry key="..\:/Users/WALELA/AndroidStudioProjects/ASSK/app/src/main/res/layout/activity_afaq.xml" value="0.15625" />
+        <entry key="..\:/Users/WALELA/AndroidStudioProjects/ASSK/app/src/main/res/layout/activity_components.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/WALELA/AndroidStudioProjects/ASSK/app/src/main/res/layout/activity_courseshow.xml" value="0.22" />
+        <entry key="..\:/Users/WALELA/AndroidStudioProjects/ASSK/app/src/main/res/layout/activity_executive_teams.xml" value="0.16168478260869565" />
+        <entry key="..\:/Users/WALELA/AndroidStudioProjects/ASSK/app/src/main/res/layout/activity_isuweb.xml" value="0.15625" />
+        <entry key="..\:/Users/WALELA/AndroidStudioProjects/ASSK/app/src/main/res/layout/activity_main.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/WALELA/AndroidStudioProjects/ASSK/app/src/main/res/layout/activity_mission.xml" value="0.18297101449275363" />
+        <entry key="..\:/Users/WALELA/AndroidStudioProjects/ASSK/app/src/main/res/layout/activity_persons.xml" value="0.13454545454545455" />
+        <entry key="..\:/Users/WALELA/AndroidStudioProjects/ASSK/app/src/main/res/layout/activity_questions.xml" value="0.25" />
+        <entry key="..\:/Users/WALELA/AndroidStudioProjects/ASSK/app/src/main/res/layout/activity_vision.xml" value="0.18297101449275363" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
